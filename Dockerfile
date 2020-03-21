@@ -1,6 +1,6 @@
-FROM bref/php-74-fpm-dev:0.5.14
+FROM bref/php-74-fpm-dev:0.5.17
 
-COPY --from=jakzal/phpqa:1.32.0-php7.4 \
+COPY --from=jakzal/phpqa:1.33.0-php7.4 \
     /tools/deptrac \
     /tools/psalm \
     /tools/php-cs-fixer \
